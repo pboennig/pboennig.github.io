@@ -10,6 +10,7 @@ body {
   overscroll-behavior-y: none;
 }
 
+
 img {
   max-width: 100%; }
 
@@ -19,15 +20,19 @@ a {
 h1, h2, strong {
   color: #111; }
 
+h1, h2, h3, .muted {
+  font-family: "Rubik", sans-serif
+}
 h1 {
   font-size: 1.6em; 
-  font-family: "Rubik", sans-serif}
-
+}
 h2 {
-  font-size: 1.2em; }
+  font-size: 1.2em;
+}
 
 h3 {
-  font-size: 1.1em; }
+  font-size: 1.1em;
+}
 
 .muted {
   color: #aaa;
